@@ -1,0 +1,170 @@
+body{
+    background-color: #FAFAFA;
+    overflow: hidden;
+}
+/* .container{
+    width: 350px;
+    height:450px;
+    background-color: #FFFFFF;
+    border-style: solid;
+    margin: 20px;
+    border-color: #DBDBDB;
+    padding: 40px;
+    
+}
+
+  
+.form-control{
+    margin:6px;
+}
+.butn{
+    margin:10px;
+} */
+
+
+
+.login{
+    max-width: 900px;
+}
+
+.bg{
+    background-image: url('./img/1dc085cdb87d.png');
+    width: 600px;
+    min-height: 650px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.bg img{
+    position: absolute;
+    right: 0;
+    height: 500px;
+    width: 240px;
+    /* opacity: 0.4; */
+    margin-right: 46px;
+    margin-top: 20px;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+    align-content: center;
+}
+
+.login-container{
+    height: 392px;
+    width: 347px;
+    margin-top: 70px;
+    border: 1px solid rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding-top: 50px;
+    background-color: white;
+}
+
+.login-container .img-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.login-container img{
+    width: 174px;
+    height: 45px;
+
+}
+
+.login-form{
+    padding:0px 20px;
+    padding-top: 40px;
+}
+
+.form-control{
+    background-color: rgba(var(--b3f,250,250,250),1);
+    font-size: 13px;
+    height: 40px;
+}
+
+.login-button{
+    height: 30px;
+    background-color:red;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+.login-custom{
+    background-color:#B2DFFC;
+    border: none;
+    height:34px
+}
+
+.or-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.line{
+    background-color: rgba(0,0,0,0.1);
+    height: 1px;
+    width: 35%;
+    margin: 0 12px;
+    margin-top: 3px;
+}
+.fb{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.fb img{
+    width: 16px;
+    height: 16px;
+    margin-top: 18px;
+}
+
+.fb a{
+    color:#3E5B94;
+    padding-top: 15px;
+    font-family: "Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    margin-left:6px;
+    line-height: 22px;
+}
+.password{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 15px;
+    font-size: 10.5px;
+    
+}
+.future{
+    width:351px;
+    height:62px;
+    border:0.1px solid rgba(0,0,0,0.1);
+    margin-top:10px;
+    background-color: white ;
+    font-size: 14px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+
+.register{
+    font-weight:600;
+}
+.or-container span{
+    font-size:13px;
+    font-weight: 500;
+    color: #988E8E
+
+}
